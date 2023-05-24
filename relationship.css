@@ -116,6 +116,7 @@
     font-family: "Lucida Console", "Courier New", monospace;
     position: fixed;
     top: 580px;
+    width: 290px;
     left: 310px;
     font-size: 20px;
     background-image: linear-gradient(to bottom right, rgba(251, 0, 255, 0.487),rgba(234, 30, 30, 0.997));
