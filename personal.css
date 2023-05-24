@@ -173,9 +173,9 @@
   font-family: "Lucida Console", "Courier New", monospace;
   position: relative;
   top: 650px;
-  margin-left: 980px;
-  font-size: 30px;
-  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.572),gray,rgba(255, 255, 255, 0.707));
+  left: 600px;
+  font-size: 20px;
+  background-image: linear-gradient(to bottom right, rgba(39, 219, 225, 0.822),rgb(3, 117, 205),rgba(16, 61, 207, 0.756));
   border-radius: 25px;
   padding: 10px 10px;
   cursor: pointer;
