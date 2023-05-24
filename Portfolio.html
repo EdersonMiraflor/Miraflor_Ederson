@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="Portfolio.css">
+    <title>My Personal Profile</title>
+
+
+    <style>
+        .img{
+          background-image: url('MainPage(1).jpg');
+          width: 100vw;
+          height: 100vh;
+          background-size: cover;
+          background-position: center;
+          position: relative;
+        }
+        .img::before{
+          content: '';
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          background: rgba(12, 12, 11, 0.5);
+        }
+        </style> 
+</head>
+<body>
+        <nav>
+            <div class = "title">
+            <a>My Personal Profile</a><br>
+            <a>&nbsp &nbsp &nbsp My Portfolio</a>
+        </nav>
+<!--Centering and Coloring text in the Portfolio Page-->
+    </div>
+<!--Image Use in the Portfolio Page-->
+    <div class="img"></div>
+    <div class="center">
+    <div class="title">
+        <span class="text">My</span> <span class="txt">Portfolio</span></div>
+<!--Button1 -->
+    <div class="b1">
+          <button type="button" onclick="location.href='personal.html'">Personal Information</button>
+    </div>
+<!--Button2 -->
+    <div class="b2">
+      <button type="button" onclick="location.href='hobbies.html'">Personal Hobbies</button>
+    </div>
+<!--Button3 -->
+    <div class="b3">
+      <button type="button" onclick="location.href='education.html'">Personal Education</button>
+    </div>
+<!--Button4 -->
+    <div class="b4">
+      <button type="button" onclick="location.href='relationship.html'">Personal Relationship</button>
+    </div>
+
+  <div class="personal">
+    <img src="personal.jpg" alt="personal img">
+  </div>
+  <div class="hobbies">
+    <img src="hobbies.jpg" alt="hobbies img">
+  </div>
+  <div class="education">
+    <img src="education.jpg" alt="education img">
+  </div>
+  <div class="relationship">
+    <img src="relationship.jpg" alt="relationship img">
+  </div>
+</body>
+</html>

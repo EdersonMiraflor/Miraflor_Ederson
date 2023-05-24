@@ -1,0 +1,37 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+  }
+  nav{
+    margin-left: 0px;
+    position: fixed;
+    background: black;
+    width: 100%;
+    padding: 40px 0;
+  }
+   /*Centering and Coloring in the Main Page of Portfolio*/                                                
+   .center{
+    position: absolute;
+    top: 20%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .center .title{
+    font-size: 100px;
+    margin-left: 50px;
+  }
+/*Txt/My*/
+  .txt{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+  }
+/*Text/Portfolio*/
+  .text{
+    color: ghostwhite;
+    font-family: "Times New Roman", Times, serif;
+  }
