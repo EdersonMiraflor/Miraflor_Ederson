@@ -5,7 +5,7 @@
   font-family: cursive;
 }
 
-/*Centering and Coloring in the Main Page of Portfolio*/                                                
+/*Centering the Page*/                                                
   .center{
     position: absolute;
     top: 30%;
@@ -15,11 +15,12 @@
     padding: 0 20px;
     text-align: center;
   }
+/*Locate and Size of My Portfolio*/
   .center .title{
     font-size: 100px;
     margin-left: 50px;
   }
-/*Txt/My*/
+/*Txt-Portfolio*/
   .txt{
     position: absolute;
     top: 10%;
@@ -27,7 +28,7 @@
     color: white;
     font-family: "Times New Roman", Times, serif;
   }
-/*Text/Portfolio*/
+/*Text-My*/
   .text{
     position: absolute;
     top: 10%;
