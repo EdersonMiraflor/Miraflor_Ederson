@@ -8,12 +8,18 @@
 
     <style>
         .img{
-          background-image: url('MainPage(1).jpg');
-          width: 100vw;
-          height: 100vh;
-          background-size: cover;
-          background-position: center;
-          position: relative;
+          position: absolute;
+          width: 98vw;
+          height: 150vh;
+        }
+        .imgs{
+          position: absolute;
+          top: 50px;
+          left: 100px;
+          border: 2px solid black;
+          border-radius: 200px;
+          width: 22vw;
+          height: 40vh;
         }
         .img::before{
           content: '';
@@ -22,18 +28,15 @@
           width: 100%;
           background: rgba(12, 12, 11, 0.5);
         }
+      
+
         </style> 
 </head>
 <body>
-        <nav>
-            <div class = "title">
-            <a>My Personal Profile</a><br>
-            <a>&nbsp &nbsp &nbsp My Portfolio</a>
-        </nav>
 <!--Centering and Coloring text in the Portfolio Page-->
+<img src="MainPage(1).jpg" alt="" class = "img"/><img src="Me.jpg" alt="" class = "imgs"/>
     </div>
 <!--Image Use in the Portfolio Page-->
-    <div class="img"></div>
     <div class="center">
     <div class="title">
         <span class="text">My</span> <span class="txt">Portfolio</span></div>

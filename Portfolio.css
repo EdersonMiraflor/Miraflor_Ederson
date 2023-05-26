@@ -4,13 +4,6 @@
   box-sizing: border-box;
   font-family: cursive;
 }
-nav{
-  margin-left: 0px;
-  position: fixed;
-  background: black;
-  width: 100%;
-  padding: 40px 0;
-}
 
 /*Centering and Coloring in the Main Page of Portfolio*/                                                
   .center{
@@ -28,12 +21,18 @@ nav{
   }
 /*Txt/My*/
   .txt{
+    position: absolute;
+    top: 10%;
+    left: 48%;
     color: white;
     font-family: "Times New Roman", Times, serif;
   }
 /*Text/Portfolio*/
   .text{
-    color: ghostwhite;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    color: white;
     font-family: "Times New Roman", Times, serif;
   }
 
@@ -42,9 +41,9 @@ nav{
 border: 4px solid white;
 font-family: "Lucida Console", "Courier New", monospace;
 position: relative;
-top: 180px;
+top: 295px;
 width: 450px;
-margin-left: -550px;
+left: 150px;
 font-size: 30px;
 background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.572),gray,rgba(255, 255, 255, 0.707));
 border-radius: 25px;
@@ -69,9 +68,9 @@ opacity: 0.8;
   border: 4px solid white;
   font-family: "Lucida Console", "Courier New", monospace;
   position: relative;
-  top: 380px;
+  top: 415px;
   width: 450px;
-  margin-left: -550px;
+  left: 150px;
   font-size: 30px;
   background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.572),gray,rgba(255, 255, 255, 0.707));
   border-radius: 25px;
@@ -96,9 +95,9 @@ opacity: 0.8;
   border: 4px solid white;
   font-family: "Lucida Console", "Courier New", monospace;
   position: relative;
-  top: 65px;
+  top: 540px;
   width: 450px;
-  margin-left: 600px;
+  left: 150px;
   font-size: 30px;
   background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.572),gray,rgba(255, 255, 255, 0.707));
   border-radius: 25px;
@@ -123,9 +122,9 @@ opacity: 0.8;
   border: 4px solid white;
   font-family: "Lucida Console", "Courier New", monospace;
   position: relative;
-  top: 259px;
+  top: 669px;
   width: 450px;
-  margin-left: 600px;
+  left: 150px;
   font-size: 30px;
   background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.572),gray,rgba(255, 255, 255, 0.707));
   border-radius: 25px;
@@ -150,35 +149,37 @@ opacity: 0.8;
     position: absolute;
     border: 2px solid cyan;
     border-radius: 20px;
+    width: 125px;
     height: 100px;
-    left: 370px;
-    top: 55%;
+    left: 410px;
+    top: 120%;
   }
 
   .hobbies img{
     position: absolute;
     border: 2px solid greenyellow;
     border-radius: 20px;
+    width: 125px;
     height: 100px;
-    left: 370px;
-    top: 125%;
+    left: 410px;
+    top: 195%;
   }
 
   .education img{
     position: absolute;
     border: 2px solid yellow;
     border-radius: 20px;
-    width: 110px;
+    width: 125px;
     height: 100px;
-    left: 950px;
-    top: 55%;
+    left: 410px;
+    top: 275%;
   }
   .relationship img{
     position: absolute;
     border: 2px solid red;
     border-radius: 20px;
-    width: 110px;
+    width: 125px;
     height: 110px;
-    left: 953px;
-    top: 120%;
+    left: 413px;
+    top: 350%;
   }
