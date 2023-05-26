@@ -10,7 +10,7 @@
         .img{
           position: absolute;
           width: 98vw;
-          height: 150vh;
+          height: 160vh;
         }
         .imgs{
           position: absolute;
@@ -21,9 +21,23 @@
           width: 22vw;
           height: 40vh;
         }
+
+        
         </style> 
 </head>
 <body>
+      <!--Script-->
+      <script>
+      let myWindow;
+      function openWin() {
+        myWindow = window.open("https://drive.google.com/file/d/1zkCkERl2GuMbVDdcRlgzZNfSBHVINitC/view?usp=share_link", "_blank", "width=500, height=500");
+      }
+      function closeWin() {
+        window.alert("Vlog Video Closed!");
+        myWindow.close();
+      }
+      </script>
+
 <!--Image Use in the Portfolio Page-->
 <img src="MainPage(1).jpg" alt="" class = "img"/><img src="Me.jpg" alt="" class = "imgs"/>
     <div class="center">
@@ -45,6 +59,13 @@
     <div class="b4">
       <button type="button" onclick="location.href='relationship.html'">Personal Relationship</button>
     </div>
+<!--My Git Hub Link-->
+    <div class="spt">
+
+      <button class = "j1" onclick="openWin()">Open Vlog Video</button>
+      <button class = "j2" onclick="closeWin()">Close Vlog Video</button>
+    </div>
+
 <!--Images in the Buttons-->
   <div class="personal">
     <img src="personal.jpg" alt="personal img">
